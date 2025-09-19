@@ -1,6 +1,6 @@
 [project]
-name = "figo"
-version = "0.1.0"
+name = "pyfigo"
+version = "0.1.1"
 description = "Get OBJECT keyword from a fits file"
 authors = [{name = "João Faria", email = "joao.faria@unige.ch"}]
 readme = "README.md"
@@ -9,7 +9,7 @@ dependencies = []
 
 [tool.setuptools]
 ext-modules = [
-  {name = "cfigo", sources = ["figo.c"]}
+  {name = "cfigo", sources = ["figo/figo.c"]}
 ]
 
 [project.scripts]
