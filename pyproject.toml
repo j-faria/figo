@@ -1,0 +1,16 @@
+[project]
+name = "figo"
+version = "0.1.0"
+description = "Get OBJECT keyword from a fits file"
+authors = [{name = "João Faria", email = "joao.faria@unige.ch"}]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+ext-modules = [
+  {name = "cfigo", sources = ["figo.c"]}
+]
+
+[project.scripts]
+figo = "figo:_main"
