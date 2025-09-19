@@ -8,7 +8,7 @@
 ## Install and run
 
 ```bash
-pip install figo
+pip install pyfigo
 ```
 
 In the command line,
@@ -25,7 +25,7 @@ or in the Python REPL,
 ## Don't install, just run
 
 ```bash
-uvx figo file.fits
+uvx --from pyfigo figo file.fits
 ```
 
 
