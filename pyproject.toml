@@ -8,6 +8,7 @@ requires-python = ">=3.11"
 dependencies = []
 
 [tool.setuptools]
+py-modules = ["figo"]
 ext-modules = [
   {name = "cfigo", sources = ["figo.c"]}
 ]
