@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="logo.png" width="60%" />
+    <img src="https://raw.githubusercontent.com/j-faria/figo/main/logo.png" width="60%" />
     <p>Get the <code>OBJECT</code> keyword from a <em>fits</em> file.</p>
     <p>But like... fast.</p>
 </div>
@@ -33,7 +33,7 @@ uvx figo file.fits
 
 #### Is it fast?
 
-![comparison](timer.png)
+![comparison](https://raw.githubusercontent.com/j-faria/figo/main/timer.png)
 > _This is such an unfair comparison! `astropy` is amazing and does so much more!_
 
 #### Could it be faster?

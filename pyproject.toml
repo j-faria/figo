@@ -9,7 +9,7 @@ dependencies = []
 
 [tool.setuptools]
 ext-modules = [
-  {name = "cfigo", sources = ["figo/figo.c"]}
+  {name = "cfigo", sources = ["figo.c"]}
 ]
 
 [project.scripts]
